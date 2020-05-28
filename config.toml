@@ -45,8 +45,13 @@ disqusShortname = "nawoto"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
+    weight = 2
     url = "https://twitter.com/nawoto/"
+[[params.social]]
+    name = "SpeakerDeck"
+    icon = "fab fa-speaker-deck fa-2x"
+    weight = 3
+    url = "https://speakerdeck.com/nawoto/"
 
 # Menu links
 #[[menu.main]]
