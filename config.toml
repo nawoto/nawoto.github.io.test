@@ -1,0 +1,60 @@
+baseURL = "https://nawo.to/"
+title = "@nawoto"
+defaultContentLanguage = "ja"
+languageCode = "ja-jp"
+disablePathToLower = true
+hasCJKLanguage = true
+publishDir = "docs"
+theme = "hugo-coder"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "nawoto"
+
+[params]
+    author = "Nishimura Naoto"
+    info = "Agile,Scrum and more..."
+    description = "nawo.to"
+    keywords = "agile,scrum,managemt"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "書籍「アジャイルサムライ」監訳者、書籍「Scrum Boot Camp The Book」著者"
+
+    hidecredits = true
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/nawoto/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/nawoto/"
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"
+
